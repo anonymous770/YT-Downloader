@@ -88,6 +88,8 @@ try:
 		time.sleep(1.5)
 		print('\n')
 		print('\tDownloading complete !!\n')
+		print(video_location)
+		print('\n')
 		time.sleep(3)
 		sub.call('clear')
 	else:
@@ -122,6 +124,8 @@ try:
 		time.sleep(1.5)
 		print('\n\tPlease wait  .....\n')
 		print('\tDownloading complete !!\n')
+		print(video_location)
+		print('\n')
 		time.sleep(3)
 		sub.call('clear')
 	else:
@@ -159,6 +163,8 @@ try:
 		time.sleep(1.5)
 		print('\n')
 		print('\tDownloading complete !!\n')
+		print(video_location)
+		print('\n')
 		time.sleep(3)
 		sub.call('clear')
 	else:
@@ -193,6 +199,8 @@ try:
 		YouTube(link, on_progress_callback=on_progress).streams.get_audio_only().download('/sdcard/YouTube/Audios')
 		time.sleep(1)
 		print('\n\tDownloading complete !!\n')
+		print(audio_location)
+		print('\n')
 		time.sleep(2)
 		sub.call('clear')
 		os.chdir('/sdcard/YouTube/Audios')
