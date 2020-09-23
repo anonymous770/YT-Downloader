@@ -123,6 +123,7 @@ try:
 		print('\n\tPlease wait  .....\n')
 		YouTube(link, on_progress_callback=on_progress).streams.get_highest_resolution().download('/sdcard/YouTube/Videos')
 		time.sleep(1.5)
+		print('\n')
 		print('\tDownloading complete !!\n')
 		print(video_location)
 		print('\n')
