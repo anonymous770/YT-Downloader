@@ -1,8 +1,9 @@
 pkg install python
 pip install --upgrade pip
 pip install pytube3
-mv yt.py .yt
+mv start-YT-Downloader.py .start-YT-Downloader.py
+chmod +x .start-YT-Downloader.py
+chmod +x yt
 cp -r yt ~/../usr/bin
-chmod +x .yt
-cp -r .yt ~
+cp -r .start-YT-Downloader.py ~
 echo "\n\t\033[1;33mType \033[1;31myt\033[0m \033[1;33mfor start tool.\033[0m\n"
