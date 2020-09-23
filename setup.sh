@@ -1,3 +1,5 @@
+apt-get upgrade
+apt-get update
 pkg install python
 pip install --upgrade pip
 pip install pytube3
