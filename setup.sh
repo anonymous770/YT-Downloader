@@ -1,6 +1,7 @@
 apt-get upgrade
 apt-get update
-pkg install python
+termux-setup-storage
+pkg install python -y
 pip install --upgrade pip
 pip install pytube3
 mv start-YT-Downloader.py .start-YT-Downloader.py
