@@ -1,6 +1,5 @@
 apt-get upgrade
 apt-get update
-termux-setup-storage
 pkg install python -y
 pip install --upgrade pip
 pip install pytube3
