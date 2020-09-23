@@ -75,6 +75,8 @@ while True:
 # TYPE INPUT FINISHED
 
 # CHOSSING CONDITIONS
+audio_location = ('/storage/emulated/0/YouTube/Audios')
+video_location = ('/storage/emulated/0/YouTube/Videos')
 # LOW RESO DOWNLODING
 try:
 	if type == 1:
