@@ -199,6 +199,7 @@ try:
 		print('\n\tPlease wait  .....\n')
 		YouTube(link, on_progress_callback=on_progress).streams.get_audio_only().download('/sdcard/YouTube/Audios')
 		time.sleep(1)
+		print('\n')
 		print('\n\tDownloading complete !!\n')
 		print(audio_location)
 		print('\n')
