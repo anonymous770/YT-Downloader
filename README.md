@@ -9,4 +9,4 @@ $ yt
 then enter a youtube video link
 choose resolations or file type
 
-some time this tool show error because link is not correct and video or audio streame is not found and most videos or audios is not download because it's only for premimum membres of youtube therfore this tool is not download these videos or audios.
+some time this tool show error because link is not correct and video or audio streame is not found and most videos or audios is not download because it's only for premimum membres of youtube and due to age restriction therfore this tool is not download these videos or audios.
